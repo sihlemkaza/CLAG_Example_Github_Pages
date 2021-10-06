@@ -1,0 +1,51 @@
+body {
+  margin: 0; /* the browser usually a default margin of 8 pixels, setting it to zero removes the default margin*/
+  font-family: Roboto, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(199, 33, 33);
+}
+
+nav {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+nav a {
+  margin-right: 15px; /* creates 15 pixels of space on the right side of each "a" element inside the "nav" element */
+  color: white;
+  text-decoration: none;
+  padding: 3px 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a.active {
+  background-color: rgb(131, 11, 11);
+  border-radius: 8px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/red-ground.jpg");
+  background-size: cover;
+  background-position: center;
+  height: fit-content;
+  color: white;
+}
+
+.program-name {
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+.page-name {
+  font-size: 20px;
+}
+

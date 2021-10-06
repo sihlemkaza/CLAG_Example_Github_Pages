@@ -1,0 +1,24 @@
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6) ), url("images/lobby.jpg");
+  background-size: cover;
+  width: 700px;
+  height: 500px;
+  color: white;
+}
+
+.video-player h1 {
+  font-size: 36px;
+}
+.video-player ol li {
+  font-size: 20px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Auditorium</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+  </head>
+  
+  <body>
+
+    <nav>
+        <a href="./lobby.html">Lobby</a>
+        <a href="./index.html" class="active">Auditorium</a>
+        <a href="./classroom.html">Classroom</a>
+    </nav>
+
+    <div class="header-container">
+        <h1 class="program-name">Code Like A Girl 2021 </h1>
+        <h2 class="page-name">Auditorium</h2>
+    </div>
+
+    <div class="middle-section">
+      <img class="video-player" src="images/number-ten.jpg" alt="countdown timer image">
+      <div class="chat-box">
+        <div class="message-area" id="message-area">
+        </div>
+        <div class="send-message-area">
+            <input class="message-input" id="message-input" type="text" placeholder="type message here"/>
+            <button class="send-button" onclick="sendMessage()">Send</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttons-group">
+      <button><a href="lobby.html">Take Me Back To Lobby</a></button>
+      <button><a href="classroom.html">Go To Classroom</a></button>
+    </div>
+
+  </body>
+</html>

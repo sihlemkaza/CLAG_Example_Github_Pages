@@ -1,0 +1,22 @@
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url("images/bulb.jpg");
+  background-size: cover;
+  width: 700px;
+  height: 500px;
+  
+}
+
+.video-player p {
+  font-size: 36px;
+  color: white;
+}
